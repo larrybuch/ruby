@@ -61,7 +61,7 @@ while what != "q"
 		puts "what number do you want to divide it by?"
 		secondNum = gets.to_i
 
-		answer = firstNum / secondNum
+		answer = firstNum /	 secondNum
 		puts " #{firstNum} divided by #{secondNum} is #{answer}"
 
 		puts "do you want to (a)dd, (s)ubtract, (m)ultiply, (d)ivide (p)ower square (r)oot or (q)uit?"
