@@ -14,7 +14,7 @@ class Person
 	end
 
 	def to_s
-		"#{name}, #{age}, #{gender}"
+		"#{name} #{age} #{gender}"
 	end
 end
 
