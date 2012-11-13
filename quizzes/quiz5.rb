@@ -13,12 +13,21 @@ class Father < Grandfather
 end
 
 class Uncle < Grandfather
+  def uncie
+    puts "I'm an uncle"
+  end
 end
 
 class Son < Father
+  def boy
+    puts "I'm a son"
+  end
 end
 
 class Cousin < Uncle
+  def red_head
+    puts "I'm a cousin"
+  end
 end
 
 binding.pry
